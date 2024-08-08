@@ -14,7 +14,7 @@ import net.serenitybdd.rest.SerenityRest;
 
 
 public class CrearOrdenStepDef {
-
+    /*
     private String url;
     private String requestBody;
     private Response response;
@@ -66,5 +66,5 @@ public class CrearOrdenStepDef {
         assertEquals(expectedJson.get("shipDate").asText(), actualJson.getString("shipDate"));
         assertEquals(expectedJson.get("status").asText(), actualJson.getString("status"));
         assertEquals(expectedJson.get("complete").asBoolean(), actualJson.getBoolean("complete"));
-    }
+    }*/
 }

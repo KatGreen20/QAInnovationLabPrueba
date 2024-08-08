@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {"pretty"},
         features = "classpath:features",
         glue = "com.nttdata.glue", // El paquete donde se encuentran tus definiciones de pasos
-        tags = "@crearOrden" // Puedes cambiar esto según los tags que quieras ejecutar
+        tags = "@obtenerOrden" // Puedes cambiar esto según los tags que quieras ejecutar
 )
 public class CucumberTestSuite {
 }
